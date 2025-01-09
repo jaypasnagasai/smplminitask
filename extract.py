@@ -17,5 +17,5 @@ end_idx = start_idx + values_per_joint - 1 # 14
 joint_4_data = poses[:, start_idx:end_idx]
 
 # Save the joint 4 data to an NPZ file
-output_npz_path = 'joint_4_pose_data.npz'  # Replace with your desired output path
+output_npz_path = 'leftknee.npz'  # Replace with your desired output path
 np.savez(output_npz_path, joint_4_poses=joint_4_data)
