@@ -24,26 +24,26 @@ The motion used to extract the left knee
 ### NPZ KEYS BREAKDOWN
 
 1. `trans`: (360,3)
-    The global translation (position) of the subject in 3D space for each frame of the motion sequence.
-    - 360: Total # Of Frames 
-    - 3: Total # of Vector Components (x,y,z)
+    - The global translation (position) of the subject in 3D space for each frame of the motion sequence.
+    -     360: Total # Of Frames 
+    -     3: Total # of Vector Components (x,y,z)
   
 2. `gender`: Female [Scalar]
 
 3. `mocap_framerate`: 120 [Scalar]
 
 4. `betas`: (16)
-    The shape parameters of the SMPL. They encode the body shape in a low-dimensional space.
+    - The shape parameters of the SMPL. They encode the body shape in a low-dimensional space.
 
 5. `dmpls`: (360,8)
-    They encode soft tissue deformation effects during motion.
-    - 360: Total # Of Frames 
-    - 8: Number of dynamic parameters encoding soft tissue dynamics.
+    - They encode soft tissue deformation effects during motion.
+    -     360: Total # Of Frames 
+    -     8: Number of dynamic parameters encoding soft tissue dynamics.
 
 
 7. `poses`: (360,156)
-    They represent the orientation of the body joints in axis-angle format.
-    - 360: Total # Of Frames
-    - 156: 52 (Total # of Joints in SMPL-H Dataset) x 3 (Total # of Vector Components)
+    - They represent the orientation of the body joints in axis-angle format.
+    -     360: Total # Of Frames
+    -     156: 52 (Total # of Joints in SMPL-H Dataset) x 3 (Total # of Vector Components)
 
 
