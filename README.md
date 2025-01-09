@@ -2,7 +2,7 @@
 
 ## OBJECTIVE
 
-To load a AMASS dataset of a particular motion and extract the left_knee angles.
+To load a AMASS dataset of a particular motion and extract the left_knee angles from the `pose` key.
 
 ## MASTER DATASET
 The dataset the motion data has been extracted from 
@@ -42,9 +42,6 @@ The motion used to extract the left knee
 6. `poses`: (360,156) [They represent the orientation of the body joints in axis-angle format.]
     - 360: Total # Of Frames
     - 156: 52 (Total # of Joints in SMPL-H Dataset) x 3 (Total # of Vector Components)
-
-#### NOTE
-The objective of this task is to extract the `pose` parameters of the left knee. Hence, it will be the only key to be focused on.
 
 ## IDENTIFYING LEFT KNEE
 
