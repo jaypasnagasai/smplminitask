@@ -37,8 +37,8 @@ The motion used to extract the left knee
 
 5. `dmpls`: (360,8)
     - They encode soft tissue deformation effects during motion.
-    -     360: Total # Of Frames 
-    -     8: Number of dynamic parameters encoding soft tissue dynamics.
+         360: Total # Of Frames 
+         8: Number of dynamic parameters encoding soft tissue dynamics.
 
 
 7. `poses`: (360,156)
