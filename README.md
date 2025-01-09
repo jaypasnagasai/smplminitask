@@ -12,12 +12,16 @@ The dataset the motion data has been extracted from
 - Motions: 252
 - Video: 26.74 min
 
-## MOTION DATASET
+## EXAMPLE MOTION
 The motion used to extract the left knee
 
-- File Name: A1 - [Stand_poses.npz](stand.npz)
+- File Name: [A1 - Stand_poses.npz](stand.npz)
 - Modified Name: [stand.npz](stand.npz)
 - Gender: Female
 - Frame Rate: 120 fps
 - Render Duration: 3 s
-  
+
+### NPZ KEYS BREAKDOWN
+
+1. 'trans': (360,3)
+
