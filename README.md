@@ -104,8 +104,8 @@ Left Knee is `[4]`. Hence we have to extract the `poses` parameters from row 12-
 
 ## IMPLEMENTATION
 
-1. Install requirements.txt for required libraries
-2. Run [main.py](main.py) to load [stand.npz](stand.npz)
+1. Install NumPy to load arrays
+2. Run [main.py](main.py) to load [stand.npz](stand.npz) and get their shape/dimensions
 3. Run [extract.py](extract.py) to create [leftknee.npz](stand.npz)
 4. Run [main.py](main.py) to load [leftknee.npz](leftknee.npz)
 
