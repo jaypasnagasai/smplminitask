@@ -1,7 +1,7 @@
 import numpy as np
 
 # Path to the .npz file
-file_path = 'Stand.npz'
+file_path = 'stand.npz'
 
 # Load the .npz file
 data = np.load(file_path)
