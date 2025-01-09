@@ -24,4 +24,9 @@ The motion used to extract the left knee
 ### NPZ KEYS BREAKDOWN
 
 1. `trans`: (360,3)
+2. `gender`: Female [Scalar]
+3. `mocap_framerate`: 120 [Scalar]
+4. `betas`: (16)
+5. `dmpls`: (360,8)
+6. `poses`: (360,156)
 
