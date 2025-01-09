@@ -39,7 +39,7 @@ The motion used to extract the left knee
     - 360: Total # Of Frames
     - 8: Number of dynamic parameters encoding soft tissue dynamics.
 
-6. `poses`: (360,156) [They represent the orientation of the body joints in axis-angle format.]
+6. `poses`: (360,156) [They represent the orientation of the body joints in axis-angle format. They are measured in radians]
     - 360: Total # Of Frames
     - 156: 52 (Total # of Joints in SMPL-H Dataset) x 3 (Total # of Vector Components)
 
@@ -102,7 +102,16 @@ According to the [Meshcapade Wiki](https://github.com/Meshcapade/wiki/blob/main/
 ```
 Left Knee is `[4]`. Hence we have to extract the `poses` parameters from row 12-14.
 
+## IMPLEMENTATION
 
+1. Install requirements.txt for required libraries
+2. Run [main.py](main.py) to load [stand.npz](stand.npz)
+3. Run [extract.py](extract.py) to create [leftknee.npz](stand.npz)
+4. Run [main.py](main.py) to load [leftknee.npz](leftknee.npz)
+
+## CONCLUSION
+
+This is my first time completing a task for this project and documenting the process in GitHub. Any feedback would be appreciated. Thank You!
 
 
 
